@@ -1,0 +1,58 @@
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: 200px;
+    max-height: 100vh;
+  }
+  
+  .number-slide1 {
+    background-image: url(../images/harvest-moon.jpg);
+  }
+  
+  .number-slide2 {
+    background-image: url(../images/zelda.jpg);
+  }
+  
+  .number-slide3 {
+    background-image: url(../images/final-fantasy.jpg);
+  }
+  
+  .number-slide4 {
+    background-image: url(../images/chrono-trigger.png);
+  }
+  
+  .number-slide5 {
+    background-image: url(../images/kirby-star.jpg)
+  }
+
+  .number-slide6{
+    background-image: url(../images/sonic.png);
+  }
+  
+  .number-slide6 {
+    background: rgb(64, 76, 255);
+    background: linear-gradient(
+      128deg,
+      rgba(64, 76, 255, 1) 0%,
+      rgba(174, 63, 255, 1) 100%
+    );
+  }
+  
+  .thumbnail .keen-slider__slide {
+    font-size: 30px;
+    margin-top: 10px;
+    height: 100px;
+  }
+  .thumbnail .keen-slider__slide {
+    cursor: pointer;
+  }
+  .thumbnail .keen-slider__slide.active {
+    border: 2px dashed black;
+  }
+  
